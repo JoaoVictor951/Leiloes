@@ -21,9 +21,11 @@ public class conectaDAO {
         Connection conn = null;
         
         try {
+            
+         // ajuste na conexão com banco
         
         conn = DriverManager.getConnection(
-            "jdbc:mysql://localhost:3306/uc11?useSSL=false",
+             "jdbc:mysql://localhost:3306/uc11?useSSL=false",
             "root",
             "1234"
         );
